@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * SolideWebservices/GroupedProductTaxFix
+ *
+ * @category Magento2_Module
+ * @package  GroupedProductTaxFix
+ * @author   Solide Webservices <contact@solidewebservices.com>
+ * @license  https://opensource.org/licenses/OSL-3.0 Open Software License 3.0
+ * @version  1.0.0
+ * @link     https://solidewebservices.com
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\GroupedProduct\Model\Product\Type\Grouped" type="SolideWebservices\GroupedProductTaxFix\Model\Product\Type\Grouped" />
+</config>

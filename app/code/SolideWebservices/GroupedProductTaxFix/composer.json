@@ -1,0 +1,26 @@
+{
+	"name": "solidewebservices/groupedproducttaxfix",
+	"description": "Small extension to fix a bug within Magento v2.x core not showing tax for grouped products",
+	"require": {
+		"php": "~5.5.0|~5.6.0|~7.0.0",
+		"magento/framework": "^100.0.0"
+	},
+	"autoload": {
+		"files": [ "registration.php" ],
+		"psr-4": {
+			 "SolideWebservices\\GroupedProductTaxFix\\": ""
+		}
+	},
+	"type": "magento2-module",
+	"version": "1.0.0",
+	"license": [
+			"OSL-3.0"
+	],
+	"authors": [
+		{
+			"name": "Solide Webservices",
+			"homepage": "https://solidewebservices.com/",
+			"role": "Developer"
+		}
+	]
+}
